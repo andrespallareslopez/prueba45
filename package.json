@@ -4,6 +4,7 @@
   "description": "testing components with reaxt",
   "main": "index.js",
   "scripts": {
+    "build:parcel":"npx parcel build indexbis.html",
     "devwindow": "concurrently --kill-others \"npm run build:babel\" \"npm run build:babelcomponent\" \"npm run startwindow\" ",
     "startwindow": "live-server --port=8083",
     "build:babel": "npx babel src/index.js -w -o src/index-bis.js",
