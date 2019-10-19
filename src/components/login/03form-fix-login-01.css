@@ -1,0 +1,80 @@
+/*
+Error: File to import not found or unreadable: ../../shared/scss/variables.
+       Load paths:
+         E:/app/prueba44/src/components/buttons
+         E:/app/prueba44/src/components/effects
+         E:/app/prueba44/src/components/errorViews
+         E:/app/prueba44/src/components/footer
+         E:/app/prueba44/src/components/forms
+         E:/app/prueba44/src/components/header
+         E:/app/prueba44/src/components/layouts
+         E:/app/prueba44/src/components/list
+         E:/app/prueba44/src/components/loaders
+         E:/app/prueba44/src/components/login
+         E:/app/prueba44/src/components/logos
+         E:/app/prueba44/src/components/menu-horizontal
+         E:/app/prueba44/src/components/menu-vertical
+         E:/app/prueba44/src/components/navigations
+         E:/app/prueba44/src/components/page-controls
+         E:/app/prueba44/src/components/panel
+         E:/app/prueba44/src/components/search
+         E:/app/prueba44/src/components/slides
+         E:/app/prueba44/src/components/Table
+         E:/app/prueba44/src/components/tabs
+         E:/app/prueba44/src/components/util01
+        on line 1 of src/components/login/03form-fix-login-01.scss
+
+1: @import "../../shared/scss/variables";
+2: @import "03form-mixins-login-01";
+3: 
+4: @font-face{
+5:     font-family:"Roboto";
+6:     src:url("../../font/Roboto/Roboto-Regular.ttf");
+
+Backtrace:
+src/components/login/03form-fix-login-01.scss:1
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:44:in `import'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+E:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../../shared/scss/variables.\A        Load paths:\A          E:/app/prueba44/src/components/buttons\A          E:/app/prueba44/src/components/effects\A          E:/app/prueba44/src/components/errorViews\A          E:/app/prueba44/src/components/footer\A          E:/app/prueba44/src/components/forms\A          E:/app/prueba44/src/components/header\A          E:/app/prueba44/src/components/layouts\A          E:/app/prueba44/src/components/list\A          E:/app/prueba44/src/components/loaders\A          E:/app/prueba44/src/components/login\A          E:/app/prueba44/src/components/logos\A          E:/app/prueba44/src/components/menu-horizontal\A          E:/app/prueba44/src/components/menu-vertical\A          E:/app/prueba44/src/components/navigations\A          E:/app/prueba44/src/components/page-controls\A          E:/app/prueba44/src/components/panel\A          E:/app/prueba44/src/components/search\A          E:/app/prueba44/src/components/slides\A          E:/app/prueba44/src/components/Table\A          E:/app/prueba44/src/components/tabs\A          E:/app/prueba44/src/components/util01\A         on line 1 of src/components/login/03form-fix-login-01.scss\A \A 1: @import \"../../shared/scss/variables\";\A 2: @import \"03form-mixins-login-01\";\A 3: \A 4: @font-face{\A 5:     font-family:\"Roboto\";\A 6:     src:url(\"../../font/Roboto/Roboto-Regular.ttf\");"; }

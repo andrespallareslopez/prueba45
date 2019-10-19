@@ -1,0 +1,7 @@
+.sass-cache
+.vscode
+node_modules
+build
+src/lib
+dist
+.cache
